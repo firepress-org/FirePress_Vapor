@@ -1,5 +1,5 @@
 {
-    "name": "vapor",
+    "name": "FirePress_Vapor",
     "description": "A minimal, responsive theme for Ghost.",
     "version": "1.5.0",
     "engines": {
@@ -7,7 +7,7 @@
     },
     "license": "MIT",
     "author": {
-        "email": "seth.lilly@gmail.com"
+        "email": "relations@firepress.org"
     },
     "config": {
         "posts_per_page": 10

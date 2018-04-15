@@ -2,7 +2,12 @@
 
 ___
 
-# Vapor
+## Source
+
+This project was forked from:
+https://github.com/sethlilly/Vapor/pull/61
+
+## Vapor
 
 Minimal and responsive with a focus on typography, *Vapor* is a theme that embodies the core concept of [Ghost](http://ghost.org/)&mdash;it fades into the background, bringing the focus to your content.
 
