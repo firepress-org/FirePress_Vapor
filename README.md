@@ -1,6 +1,4 @@
-# Deprecation Notice
-
-With the [release of Ghost 1.0.0](https://blog.ghost.org/1-0/), Vapor 1.x is deprecated. Vapor 2.0.0 with full support for Ghost 1.0.0+ is coming, and as soon as I know when that will be, I'll update this repo with information. Thanks to everyone who has forked, contributed, and used Vapor! I'm looking forward to the next version.
+🙈 I’m aware that this README needs **more love**. Time is the biggest challenge here. Feel free to [buzz me on Twitter ](https://twitter.com/askpascalandy) if you have any questions or comments.
 
 ___
 
