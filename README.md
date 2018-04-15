@@ -1,11 +1,9 @@
-🙈 I’m aware that this README needs **more love**. Time is the biggest challenge here. Feel free to [buzz me on Twitter ](https://twitter.com/askpascalandy) if you have any questions or comments.
-
-___
-
 ## Source
 
 This project was forked from:
 https://github.com/sethlilly/Vapor/pull/61
+
+🙈 I’m aware that this README needs **more love**. Time is the biggest challenge here. Feel free to [buzz me on Twitter ](https://twitter.com/askpascalandy) if you have any questions or comments.
 
 ## Vapor
 
@@ -39,6 +37,7 @@ See the [changelog](CHANGELOG.md) for release details.
 
 | Version | Release Date |
 | :-----: | :----------: |
+| 1.5 | 2018-04-14 |
 | 1.4 | 2014-04-19 |
 | 1.3 | 2014-01-12 |
 | 1.2.1 | 2013-12-14 |
