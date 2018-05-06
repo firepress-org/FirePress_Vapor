@@ -10,12 +10,15 @@ Ghost is a free and open source website & blogging platform designed to simplify
 
 ## Live demo
 
+(It’s not public at the moment.)
+
 - [See this theme](#) on your own device.
 - Even better! [Login into Ghost Admin Panel](#) and see how this theme looks with your own content. 
 
-*(The website is in the pipeline but it’s not public at the moment.)*
 
-**Screenshots** can be found [here](#).
+## Screenshots
+
+(work in progress)
 
 
 ## Why fork this Ghost Theme ?
