@@ -1,6 +1,6 @@
 # FirePress_Vapor
 
-## Touch it: Live demo
+## Live demo
 
 - [See this theme](#) on your own device.
 - Even better! [Login into Ghost Admin Panel](#) and see how this theme looks with your own content. 
