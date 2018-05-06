@@ -10,7 +10,7 @@ Ghost is a free and open source website & blogging platform designed to simplify
 
 ## Live demo
 
-(It’s not public at the moment.)
+(Not available at the moment. I’m working on a dedicated website where people will be able to see all Ghost Theme we are supporting.)
 
 - [See this theme](#) on your own device.
 - Even better! [Login into Ghost Admin Panel](#) and see how this theme looks with your own content. 
