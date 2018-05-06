@@ -1,5 +1,13 @@
 # FirePress_Vapor
 
+
+## What is this?
+
+It’s a theme (*a template if you prefer*) for [Ghost](https://ghost.org/).
+
+Ghost is a free and open source website & blogging platform designed to simplify the process of publishing. It’s individual bloggers as well as online publications. You can see Ghost as a CMS (content management system) designed to be better alternative to systems like: *WordPress, Drupal, Medium, Tumblr*, etc.
+
+
 ## Live demo
 
 - [See this theme](#) on your own device.
@@ -12,7 +20,7 @@
 
 ## Why fork this Ghost Theme ?
 
-**Enhancements** — This theme is an enhanced version of the Ghost Theme **Vapor**. If you don’t know [Ghost](https://ghost.org/) it’s great tools to publish your website and your blog.
+**Enhancements** — This theme is an enhanced version of the Ghost Theme **Vapor**. 
 
 These are the essential enhancements I can’t live without:
 
