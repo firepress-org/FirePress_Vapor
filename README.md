@@ -35,7 +35,7 @@ ToDo: 0o0o0o0
 
 **Code Injection** — Take a look those snippets in this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize your theme.
 
-**Curated** — This theme is one the few themes that pass our big test. See the curated collection [in this Git repo](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go).
+**Curated** — This theme was carefully selected out of hundreds of Ghost Themes. See more of them in our [curated git collection](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go).
 
 
 ## Features
