@@ -3,29 +3,28 @@
 
 ## What is this?
 
-It’s a theme (*a template if you prefer*) for [Ghost](https://ghost.org/). **Ghost version**: ">=2.0.0"
+**FirePress Vapor** is a free and responsive Ghost theme (*a template if you prefer*) made for [Ghost](https://ghost.org/). 
 
-Ghost is a free and open source website & blogging platform designed to simplify the process of publishing. It’s individual bloggers as well as online publications. You can see Ghost as a CMS (content management system) designed to be better alternative to systems like: *WordPress, Drupal, Medium, Tumblr*, etc.
+**Compatibility** — The Ghost’s engine must be: `Ghost >= 2.0.0`.
+
+**What is Ghost?** — Ghost is a software that lets you create your website with a blog. See the [FAQ section](https://play-with-ghost.com/ghost-themes/faq/#what-is-ghost) for more details.
 
 
 ## Live demo
 
-**Not available** at the moment. I’m working on a dedicated website where people will be able to see all Ghost Themes we are supporting at FirePress.
+It will be soon part of **play-with-ghost.com** but it’s not available at the moment. [play-with-ghost.com](https://play-with-ghost.com/) is a playground to learn about Ghost. You can see and edit websites made with Ghost. In short, you can try Ghost on the spot without having to sign-up!
 
-- [See this theme](#) on your own device.
-- Even better! [Login into Ghost Admin Panel](#) and see how this theme looks with your own content. 
+ToDo: (Live demo button | Admin Panel button)
 
 
 ## Screenshots
 
-- work in progress
+ToDo: 0o0o0o0
 
 
 ## Why fork this Ghost Theme ?
 
-**Enhancements** — This theme is an enhanced version of the Ghost Theme **Vapor**. 
-
-These are the essential enhancements I can’t live without:
+**Enhancements** — This theme has been enhanced to feature some elements that are not present in the original code. IMHO, these are essential enhancements that are hard to live without:
 
 - **Buttons** (unicorn UI)
 - **Icons** (Font Awesome 5)
@@ -38,10 +37,8 @@ These are the essential enhancements I can’t live without:
 
 **Curated** — This theme is one the few themes that pass our big test. See the curated collection [in this Git repo](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go).
 
-**Compatibility** — This theme will work on [Ghost](https://ghost.org/) >= **1.0**.
 
-
-## About Vapor 
+## Features
 
 Minimal and responsive with a focus on typography, *Vapor* is a theme that embodies the core concept of [Ghost](http://ghost.org/) it fades into the background, bringing the focus to your content.
 
@@ -73,6 +70,6 @@ Thanks to the power of communities, this is where `1 + 1 = 3`.
 
 ## Author
 
-In the world of OSS (open source software) most people refer themselves as maintainers. The thing is… I hate this expression. It feels heavy and not fun. I much prefer author.
-
-Shared by [Pascal Andy](https://pascalandy.com/blog/now/). Find me on [Twitter](https://twitter.com/askpascalandy).
+- Shared by [Pascal Andy](https://pascalandy.com/blog/now/)
+- Find me on [Twitter](https://twitter.com/askpascalandy)
+- Browse for more Ghost Themes at [play-with-ghost.com](https://play-with-ghost.com/) 
