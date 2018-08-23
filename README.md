@@ -68,8 +68,8 @@ Thanks to the power of communities, this is where `1 + 1 = 3`.
 - This project was forked from https://github.com/sethlilly/Vapor/pull/61
 
 
-## Author
+## About
 
-- Shared by [Pascal Andy](https://pascalandy.com/blog/now/)
-- Find me on [Twitter](https://twitter.com/askpascalandy)
-- Browse for more Ghost Themes at [play-with-ghost.com](https://play-with-ghost.com/) 
+- [Pascal Andy’s « now page »](https://pascalandy.com/blog/now/)
+- Follow me on [Twitter](https://twitter.com/askpascalandy)
+- Find more Ghost Themes on [play-with-ghost.com](https://play-with-ghost.com/)
