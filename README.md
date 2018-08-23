@@ -76,6 +76,3 @@ Thanks to the power of communities, this is where `1 + 1 = 3`.
 In the world of OSS (open source software) most people refer themselves as maintainers. The thing is… I hate this expression. It feels heavy and not fun. I much prefer author.
 
 Shared by [Pascal Andy](https://pascalandy.com/blog/now/). Find me on [Twitter](https://twitter.com/askpascalandy).
-
-
-

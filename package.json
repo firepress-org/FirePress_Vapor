@@ -1,27 +1,19 @@
 {
-    "name": "FirePress_Vapor",
-    "description": "FirePress_Vapor is a Ghost theme supported by FirePress. It's part of the Ghost-Theme-Curated-Collection. Find it at https://bit.ly/2HB6Fyu",
-    "demo": "https://play-with-ghost.com/",
-    "version": "1.5.0C",
+    "name": "vapor",
+    "description": "A minimal, responsive theme for Ghost.",
+    "version": "1.6.0",
     "engines": {
-        "ghost": ">=1.0.0"
+        "ghost": ">=2.0.0"
     },
     "license": "MIT",
     "author": {
-        "name": "FirePress Team",
-        "email": "relations@firepress.org",
-        "url": "firepress.org"
+        "email": "seth.lilly@gmail.com"
     },
     "keywords": [
         "ghost",
         "theme",
-        "minimal",
-        "responsive"
+        "ghost-theme"
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/firepress-org/FirePress_Vapor.git"
-    },
     "config": {
         "posts_per_page": 10
     }
