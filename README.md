@@ -62,10 +62,10 @@ Thanks to the power of communities, this is where `1 + 1 = 3`.
 
 ## License & Sources
 
-- For this software, view **MIT** license information at https://github.com/sethlilly/Vapor/blob/master/LICENSE
-- For the fork, view the **GNU** license information at https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE
-- This Git repo is available at https://github.com/firepress-org/FirePress_Vapor
-- This project was forked from https://github.com/sethlilly/Vapor/pull/61
+- For this software, view **MIT** license information at:<br> https://github.com/sethlilly/Vapor/blob/master/LICENSE
+- For the fork, view the **GNU** license information at:<br> https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE
+- This Git repo is available at:<br> https://github.com/firepress-org/FirePress_Vapor
+- This project was forked from:<br> https://github.com/sethlilly/Vapor/pull/61
 
 
 ## About
