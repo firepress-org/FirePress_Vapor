@@ -3,7 +3,7 @@
 
 ## What is this?
 
-It’s a theme (*a template if you prefer*) for [Ghost](https://ghost.org/).
+It’s a theme (*a template if you prefer*) for [Ghost](https://ghost.org/). **Ghost version**: ">=2.0.0"
 
 Ghost is a free and open source website & blogging platform designed to simplify the process of publishing. It’s individual bloggers as well as online publications. You can see Ghost as a CMS (content management system) designed to be better alternative to systems like: *WordPress, Drupal, Medium, Tumblr*, etc.
 
