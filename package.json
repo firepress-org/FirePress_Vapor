@@ -1,7 +1,7 @@
 {
     "name": "FirePress_Vapor",
     "description": "A minimal, responsive theme for Ghost.",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "engines": {
         "ghost": ">=2.0.0"
     },
