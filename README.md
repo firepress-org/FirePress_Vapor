@@ -68,12 +68,16 @@ Thanks to the power of communities, this is where `1 + 1 = 3`.
 5. Submit a pull request
 
 
-## License & Sources
+## Sources & Fork
 
-- For this software, view **MIT** license information at:<br> https://github.com/sethlilly/Vapor/blob/master/LICENSE
-- For the fork, view the **GNU** license information at:<br> https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE
 - This Git repo is available at:<br> https://github.com/firepress-org/FirePress_Vapor
 - This project was forked from:<br> https://github.com/sethlilly/Vapor/pull/61
+
+
+## License
+
+- The original projet is under the **MIT** license. [Find it here](https://github.com/sethlilly/Vapor/blob/master/LICENSE). 
+- This git repo is under the **GNU** license information. [Find it here](https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE).
 
 
 ## About
