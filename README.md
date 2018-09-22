@@ -3,42 +3,30 @@
 
 ## What is this?
 
-**FirePress Vapor** is a free and responsive Ghost theme (*a template if you prefer*) made for [Ghost](https://ghost.org/). 
-
-**Compatibility** — The Ghost’s engine must be: `Ghost >= 2.0.0`.
-
-**What is Ghost?** — Ghost is an open source software that lets you create your website with a blog. See the [FAQ section](https://play-with-ghost.com/ghost-themes/faq/#what-is-ghost) for more details.
+- **FirePress_Vapor** — It’s a free and responsive Ghost theme (*a template if you prefer*) made for Ghost.
+- **Compatibility** — This theme works on Ghost `>= 2.0.0`.
+- **What is Ghost?** — Ghost is an open source software that lets you create your website with a blog. See the [FAQ section](https://play-with-ghost.com/ghost-themes/faq/#what-is-ghost) for more details.
 
 
-##  Live Demo (online)
+## Live Demo
 
-Head over to [play-with-ghost.com](https://play-with-ghost.com/) . It’s is a playground to learn about Ghost. You can see Ghost themes and login into the **admin panel** by using the available credentials. In short, you can try Ghost on the spot without having to sign-up!
+**play-with-ghost.com** is a playground to learn about Ghost. You can **see** Ghost themes and **login** into the admin panel by using the available credentials. In short, you can try Ghost on the spot without having to sign-up!
 
-Since August 24th 2018, you can try **Ghost version 2** here:<br>
-https://play-with-ghost.com/ghost-themes/firepress-vapor-for-barbershops/
-
-
-## Screenshots
-
-![theme_vapor_a](https://user-images.githubusercontent.com/6694151/44609992-27554e80-a7c8-11e8-8d85-93806199ebd6.jpg)
-![theme_vapor_b](https://user-images.githubusercontent.com/6694151/44609994-29b7a880-a7c8-11e8-81a0-2d81436d0a86.jpg)
-![theme_vapor_c](https://user-images.githubusercontent.com/6694151/44609998-2cb29900-a7c8-11e8-995f-405399a70fca.jpg)
+- **Live Demo** ==> https://play-with-ghost.com/live-demo-firepress-vapor-for-barbershops/
+- **Log in credentials** ==> https://play-with-ghost.com/ghost-themes/firepress-vapor-for-barbershops/
+- **Admin Panel** ==> https://play-with-ghost.com/live-demo-firepress-vapor-for-barbershops/ghost/
 
 
 ## Why fork this Ghost Theme ?
 
-**Enhancements** — This theme has been enhanced to feature some elements that are not present in the original code. IMHO, these are essential enhancements that are hard to live without:
-
-- **Buttons** (unicorn UI)
-- **Icons** (Font Awesome 5)
-- **Code Syntax** (highlight.js) 
-- **Grid** (great to make pricing table)
-
-**Drop-in replacement** — No special tweaks to do. It will work out of the box.
-
-**Code Injection** — Take a look those snippets in this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize your theme.
-
-**Curated** — This theme was carefully selected out of hundreds of Ghost Themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go).
+- **Enhancements** — This theme has been enhanced to feature some elements that are not present in the original theme. IMHO, these are essential enhancements that are hard to live without:
+	- **Buttons** (unicorn UI)
+	- **Icons** (Font Awesome 5)
+	- **Code Syntax** (highlight.js) 
+	- **Grid** (great to make pricing table)
+- **Drop-in replacement** — No special tweaks to do. It will work out of the box.
+- **Code Injection** — Take a look those snippets in this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize your theme.
+- **Curated** — This theme was carefully selected out of hundreds of Ghost Themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go) repo, or [by tags on Github](https://github.com/topics/firepress-ghost-theme).
 
 
 ## Features
@@ -50,6 +38,18 @@ Supports blog and user images; cover images, while supported in the Ghost admin,
 Fonts embedded via Google Fonts, including Roboto Slab, Merriweather, and Open Sans Condensed.
 
 The Ghost, Facebook, Twitter, and Google+ icons are trademarks of their respective owners and are from the Casper theme, copyright (c) 2013 Ghost Foundation and released under The MIT License.
+
+
+## Why fork this Ghost Theme ?
+
+- **Enhancements** — This theme has been enhanced to feature some elements that are not present in the original theme. IMHO, these are essential enhancements that are hard to live without:
+	- **Buttons** (unicorn UI)
+	- **Icons** (Font Awesome 5)
+	- **Code Syntax** (highlight.js) 
+	- **Grid** (great to make pricing table)
+- **Drop-in replacement** — No special tweaks to do. It will work out of the box.
+- **Code Injection** — Take a look those snippets in this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize your theme.
+- **Curated** — This theme was carefully selected out of hundreds of Ghost Themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go) repo, or [by tags on Github](https://github.com/topics/firepress-ghost-theme).
 
 
 ## Contributing
@@ -65,32 +65,47 @@ Thanks to the power of communities, this is where `1 + 1 = 3`.
 
 ## Sources & Fork
 
-- This Git repo is available at:<br> https://github.com/firepress-org/FirePress_Vapor
-- This project was forked from:<br> https://github.com/sethlilly/Vapor/pull/61
+- This Git repo is available at https://github.com/firepress-org/FirePress_Vapor
+- This project was forked from https://github.com/sethlilly/Vapor/pull/61
 
 
 ## License
 
-- The original projet is under the **MIT** license. [Find it here](https://github.com/sethlilly/Vapor/blob/master/LICENSE). 
+- This software is under the **MIT** license. Information at https://github.com/sethlilly/Vapor/blob/master/LICENSE
 - This git repo is under the **GNU** license information. [Find it here](https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE).
 
 
 ## FirePress Hosting
 
-**At FirePress we do one thing and we do it with our whole heart: we host fully managed Ghost’s websites**. The idea behind FirePress is to empower freelancers and small organizations to be able to build an outstanding mobile-first website. Start your [free trial here](https://play-with-ghost.com/ghost-themes/free-10-day-trial/).
+At FirePress we do one thing and we do it with our whole heart: we host **fully managed Ghost’s websites**. The idea behind FirePress is to empower freelancers and small organizations to be able to build an outstanding mobile-first website. Start your [free trial here](https://play-with-ghost.com/ghost-themes/free-10-day-trial/).
 
-We also offer a **workshop** where participants ends up with a website/blog they can easily operate themselves. Details are coming soon. It is available in those cities:
+We offer **workshops** where participants ends up with a website/blog they can easily operate themselves. Details are coming soon. It is available in those cities:
 
 - Montréal - Canada
+- Québec City - Canada
 - Toronto - Canada
 - New-York - USA
-- Québec City - Canada
 
 Because we believe your website should speak up in your name, we consider our mission completed once your site has become [your impresario](https://play-with-ghost.com/ghost-themes/why-launching-your-next-website-with-firepress/).
 
 
 ## Keep in touch
 
-- [Pascal Andy’s « now page »](https://pascalandy.com/blog/now/)
+- Pascal Andy’s [« now page »](https://pascalandy.com/blog/now/)
 - Follow me on [Twitter](https://twitter.com/askpascalandy)
 - Find more Ghost Themes on [play-with-ghost.com](https://play-with-ghost.com/)
+
+
+## Screenshots
+
+<br>
+
+![theme_vapor_a](https://user-images.githubusercontent.com/6694151/44609992-27554e80-a7c8-11e8-8d85-93806199ebd6.jpg)
+
+<br>
+
+![theme_vapor_b](https://user-images.githubusercontent.com/6694151/44609994-29b7a880-a7c8-11e8-81a0-2d81436d0a86.jpg)
+
+<br>
+
+![theme_vapor_c](https://user-images.githubusercontent.com/6694151/44609998-2cb29900-a7c8-11e8-995f-405399a70fca.jpg)
