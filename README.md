@@ -54,13 +54,15 @@ The Ghost, Facebook, Twitter, and Google+ icons are trademarks of their respecti
 
 ## Contributing
 
-Thanks to the power of communities, this is where `1 + 1 = 3`.
+Here’s how I suggest you go about proposing a change to this project:
 
-1. Fork it
-2. Create your feature branch: `git checkout -b my-new-feature`
+1. [Fork this project](https://help.github.com/articles/fork-a-repo/) to your account.
+2. [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) for the change you intend to make (i.e. `git checkout -b my-new-feature`)
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request
+5. [Submit a pull request](https://help.github.com/articles/about-pull-requests/) from your fork’s branch to our `master` branch.
+	- Explain why you’re making a change. Even if it seems self-evident, please take a sentence or two to tell us why your change or addition should happen. It’s especially helpful to articulate why this change applies to everyone who works with the applicable technology, rather than just you or your team.
+	- Please only modify one element per pull request. This helps keep pull requests and feedback focused on a specific project or technology.
 
 
 ## Sources & Fork
