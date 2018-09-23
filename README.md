@@ -73,8 +73,8 @@ Here’s how I suggest you go about proposing a change to this project:
 
 ## License
 
-- This software is under the **MIT** license. Information at https://github.com/sethlilly/Vapor/blob/master/LICENSE
 - This git repo is under the **GNU** license information. [Find it here](https://github.com/pascalandy/GNU-GENERAL-PUBLIC-LICENSE).
+- The sethlilly software, is under the **MIT** license. Details at https://github.com/sethlilly/Vapor/blob/master/LICENSE
 
 
 ## FirePress Hosting
