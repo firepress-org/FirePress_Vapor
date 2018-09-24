@@ -1,6 +1,7 @@
 {
     "name": "FirePress_Vapor",
-    "description": "A minimal, responsive theme for Ghost.",
+    "description": "This Ghost theme is supported by FirePress. Find more free themes at https://github.com/topics/firepress-ghost-theme",
+    "demo": "https://play-with-ghost.com/ghost-themes/firepress-vapor-for-barbershops/",
     "version": "1.6.3",
     "engines": {
         "ghost": ">=2.0.0"
@@ -9,11 +10,22 @@
     "author": {
         "email": "seth.lilly@gmail.com"
     },
+    "maintainer": {
+      "name": "Pascal Andy",
+      "email": "relations@firepress.org",
+      "url": "https://play-with-ghost.com/"
+    },
     "keywords": [
         "ghost",
         "theme",
-        "ghost-theme"
+        "ghost-theme",
+        "FirePress"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/firepress-org/FirePress_Vapor.git"
+    },
+    "bugs": "https://github.com/firepress-org/FirePress_Vapor/issues",
     "config": {
         "posts_per_page": 10
     }
