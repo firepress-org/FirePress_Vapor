@@ -1,0 +1,1442 @@
+/*  btn_c
+    btn_cs from graphic fuel
+/* ---------------------------------------------------------- */
+
+/* Buttons */
+
+.btn_c {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 24px 11px;
+  color: #fff;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background: #202020;
+  font-size: 0.80em;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: top;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  letter-spacing: normal !important;
+  position: relative;
+  white-space: nowrap;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+  -webkit-appearance: none;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  margin-left: 2px;
+  margin-right: 7px;
+}
+
+.btn_c.wide {
+  width: 100%;
+}
+
+.btn_c .material-icons {
+  vertical-align: bottom;
+  margin-top: -5px;
+  margin-bottom: -2px;
+  margin-right: 8px;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.btn_c .material-icons.small {
+  font-size: 18px;
+  margin: 0px 6px 0px 0px;
+}
+
+.btn_c .material-icons.right {
+  margin-left: 11px;
+  margin-right: 0px;
+}
+
+.btn_c svg {
+  width: 22px;
+  height: 22px;
+  margin-top: -3px;
+  top: 2px;
+  vertical-align: bottom;
+  margin-right: 14px;
+  pointer-events: none !important;
+  position: relative;
+}
+
+.btn_c svg * {
+  pointer-events: none !important;
+}
+
+.btn_c svg.right {
+  margin-right: 0;
+  margin-left: 14px;
+}
+
+.btn_c.actionbtn_c {
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  padding: 12px;
+  border-radius: 25px;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.3);
+  line-height: 1;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  vertical-align: top;
+}
+
+.btn_c.actionbtn_c svg {
+  width: 18px;
+  height: 18px;
+}
+
+.btn_c.actionbtn_c .material-icons {
+  margin: 0;
+  position: relative;
+  left: -3px;
+  top: -3px;
+  font-size: 24px;
+}
+
+.btn_c.actionbtn_c.big {
+  width: 50px;
+  height: 50px;
+  padding: 16px;
+}
+
+.btn_c.actionbtn_c.big .material-icons {
+  font-size: 24px;
+}
+
+.btn_c.actionbtn_c.big svg {
+  width: 22px;
+  height: 22px;
+  left: -2px;
+  top: 0px;
+}
+
+.btn_c.actionbtn_c.stroke {
+  box-shadow: none;
+  padding: 10px;
+}
+
+.btn_c.actionbtn_c:hover:not(:active) {
+  -webkit-transform: translateY(0) !important;
+  transform: translateY(0) !important;
+}
+
+.btn_c.actionbtn_c.rounded {
+  border-radius: 6px;
+}
+
+.btn_c.actionbtn_c svg,
+.slide.whiteSlide .btn_c.actionbtn_c svg {
+  fill: #fff;
+}
+
+.btn_c.actionbtn_c.sound [class*="sound-"] {
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  left: 13px;
+  top: 16px;
+}
+
+.btn_c.actionbtn_c.sound.stroke [class*="sound-"] {
+  left: 11px;
+  top: 14px;
+}
+
+.btn_c.actionbtn_c.sound.playing .sound-on,
+.btn_c.actionbtn_c.sound:not(.playing) .sound-off {
+  opacity: 1;
+}
+
+.btn_c.actionbtn_c.transparent {
+  background-color: transparent;
+}
+
+.btn_c:hover {
+  box-shadow: 0 6px 7px 0 rgba(0, 0, 0, 0.15), 0 0px 5px 0px rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  -webkit-transform: translateY(-2px) !important;
+  transform: translateY(-2px) !important;
+  transition: 0.35s !important;
+}
+
+.btn_c:hover:after {
+  opacity: .5;
+}
+
+.btn_c:active {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 0px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 4px -1px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(0px) !important;
+  transform: translateY(0px) !important;
+  transition: 0.35s !important;
+}
+
+.btn_c:active:after {
+  opacity: 1;
+}
+
+.btn_c.uppercase {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.btn_c.lowercase {
+  text-transform: lowercase;
+  letter-spacing: 0em;
+  font-weight: 300;
+}
+
+.btn_c.round {
+  border-radius: 22px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.btn_c.rounded {
+  border-radius: 6px;
+}
+
+.btn_c.rectangular {
+  border-radius: 1px;
+}
+
+.btn_c.square {
+  border-radius: 0px;
+}
+
+.btn_c.stroke {
+  color: #202020;
+  border: 2px solid;
+  background-color: transparent !important;
+  padding: 14px 22px 15px;
+}
+
+.slide.whiteSlide .btn_c.stroke {
+  color: #202020;
+}
+
+.btn_c.stroke.round {
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.btn_c.stroke.uppercase {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn_c.stroke.uppercase svg {
+  margin-bottom: -2px;
+}
+
+.btn_c.stroke.uppercase.small {
+  padding: 11px 15px;
+}
+
+.btn_c.stroke.small {
+  border: 1px solid;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+@media (min-width: 768px) {
+  .btn_c.stroke.big {
+    padding: 19px 30px;
+  }
+  .btn_c.stroke.big.uppercase {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+}
+
+.btn_c.stroke:not(.flat):hover {
+  box-shadow: inset 0 -100px 0 rgba(41, 41, 41, 0.05), 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btn_c.flat:not(:hover) {
+  box-shadow: none;
+}
+
+.btn_c:not(.stroke) svg {
+  fill: #fff;
+}
+
+.btn_c.small {
+  font-size: 0.75em;
+  font-weight: 500;
+  padding: 8px 20px 9px;
+}
+
+.btn_c.small .material-icons {
+  vertical-align: bottom;
+  position: relative;
+  font-size: 20px;
+  margin-right: 8px;
+  bottom: 1px;
+}
+
+.btn_c.small .material-icons.right {
+  margin-left: 8px;
+  margin-right: 0px;
+}
+
+.btn_c.small svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  top: 0px;
+}
+
+.btn_c.small svg.right {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.btn_c.small.round {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.btn_c.small.rounded {
+  border-radius: 6px;
+}
+
+.btn_c.small.uppercase {
+  font-size: 12px;
+  padding: 12px 16px;
+  letter-spacing: 0.125em;
+}
+
+.btn_c.small.uppercase.round {
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+@media (min-width: 768px) {
+  .btn_c.big {
+    font-size: 20px;
+    padding: 21px 32px 21px;
+  }
+  .btn_c.big.round {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .btn_c.big.rounded {
+    border-radius: 7px;
+  }
+  .btn_c.big.uppercase {
+    font-size: 17px;
+    padding: 23px 32px;
+  }
+  .btn_c.big.uppercase.round {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .btn_c.big .material-icons {
+    vertical-align: bottom;
+    margin-right: 16px;
+    font-size: 30px;
+  }
+  .btn_c.big .material-icons.right {
+    margin-left: 16px;
+    margin-right: 0px;
+  }
+  .btn_c.big svg {
+    width: 27px;
+    height: 27px;
+    margin-right: 16px;
+    top: 1px;
+  }
+  .btn_c.big svg.right {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+}
+
+.btn_c.empty {
+  padding: 0 !important;
+  background-color: transparent !important;
+  font-size: 0 !important;
+  margin: 0;
+  box-shadow: none;
+}
+
+.btn_c.hollow {
+  padding: 0 !important;
+  background-color: transparent !important;
+  font-size: 0 !important;
+  box-shadow: none !important;
+}
+
+.btn_c.hollow svg {
+  margin: 0;
+}
+
+.btn_c.shade {
+  position: relative;
+}
+
+.btn_c.shade:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #292929;
+  opacity: 0;
+  transition: 0.25s;
+}
+
+.btn_c.shade:hover:after {
+  opacity: 0.15;
+}
+
+.btn_c.shade:active:after {
+  opacity: 0.2;
+}
+
+.btn_c.play {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  padding: 27px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.btn_c.play svg {
+  fill: #fff;
+  width: 35px;
+  height: 36px;
+  margin: 0;
+}
+
+.btn_c.play.small {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 20px 19px;
+}
+
+.btn_c.play.small svg {
+  fill: #fff;
+  width: 23px;
+  height: 23px;
+}
+
+.btn_c.play:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.btn_c.gradient {
+  position: relative;
+}
+
+.btn_c.gradient:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #fff 0%, #000 100%);
+  z-index: -1;
+  opacity: 0.1;
+}
+
+.slide.whiteSlide .btn_c.white:hover {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.slide.whiteSlide .btn_c.white:hover:after {
+  opacity: .3;
+}
+
+.roundbtn_c {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  padding: 14px;
+  margin: 5px;
+}
+
+.roundbtn_c svg {
+  bottom: 2px;
+}
+
+@media (max-width: 319px) {
+  .btn_c.uppercase,
+  .uppercase {
+    letter-spacing: 0.07em;
+  }
+}
+
+.btn_c.uppercase {
+  letter-spacing: 0.125em !important;
+  text-indent: -0.1em !important;
+  font-weight: 700 !important;
+}
+
+/* Colors by Google Meterial Design (C) */
+
+.red {
+  background: #F44336 !important;
+  color: #fff !important;
+}
+
+.red svg {
+  fill: #fff !important;
+}
+
+.text-red {
+  color: #F44336 !important;
+}
+
+.text-red.button svg {
+  fill: #F44336 !important;
+}
+
+.stroke.button.red {
+  color: #F44336 !important;
+  border-color: #F44336 !important;
+}
+
+.stroke.button.red svg {
+  fill: #F44336 !important;
+}
+
+.pink {
+  background: #E91E63 !important;
+  color: #fff !important;
+}
+
+.pink svg {
+  fill: #fff !important;
+}
+
+.text-pink {
+  color: #E91E63 !important;
+}
+
+.text-pink.button svg {
+  fill: #E91E63 !important;
+}
+
+.stroke.button.pink {
+  color: #E91E63 !important;
+  border-color: #E91E63 !important;
+}
+
+.stroke.button.pink svg {
+  fill: #E91E63 !important;
+}
+
+.purple {
+  background: #9C27B0 !important;
+  color: #fff !important;
+}
+
+.purple svg {
+  fill: #fff !important;
+}
+
+.text-purple {
+  color: #9C27B0 !important;
+}
+
+.text-purple.button svg {
+  fill: #9C27B0 !important;
+}
+
+.stroke.button.purple {
+  color: #9C27B0 !important;
+  border-color: #9C27B0 !important;
+}
+
+.stroke.button.purple svg {
+  fill: #9C27B0 !important;
+}
+
+.deepPurple {
+  background: #673AB7 !important;
+  color: #fff !important;
+}
+
+.deepPurple svg {
+  fill: #fff !important;
+}
+
+.text-deepPurple {
+  color: #673AB7 !important;
+}
+
+.text-deepPurple.button svg {
+  fill: #673AB7 !important;
+}
+
+.stroke.button.deepPurple {
+  color: #673AB7 !important;
+  border-color: #673AB7 !important;
+}
+
+.stroke.button.deepPurple svg {
+  fill: #673AB7 !important;
+}
+
+.indigo {
+  background: #3F51B5 !important;
+  color: #fff !important;
+}
+
+.indigo svg {
+  fill: #fff !important;
+}
+
+.text-indigo {
+  color: #3F51B5 !important;
+}
+
+.text-indigo.button svg {
+  fill: #3F51B5 !important;
+}
+
+.stroke.button.indigo {
+  color: #3F51B5 !important;
+  border-color: #3F51B5 !important;
+}
+
+.stroke.button.indigo svg {
+  fill: #3F51B5 !important;
+}
+
+.blue {
+  background: #2196F3 !important;
+  color: #fff !important;
+}
+
+.blue svg {
+  fill: #fff !important;
+}
+
+.text-blue {
+  color: #2196F3 !important;
+}
+
+.text-blue.button svg {
+  fill: #2196F3 !important;
+}
+
+.stroke.button.blue {
+  color: #2196F3 !important;
+  border-color: #2196F3 !important;
+}
+
+.stroke.button.blue svg {
+  fill: #2196F3 !important;
+}
+
+.cyan {
+  background: #00BCD4 !important;
+  color: #fff !important;
+}
+
+.cyan svg {
+  fill: #fff !important;
+}
+
+.text-cyan {
+  color: #00BCD4 !important;
+}
+
+.text-cyan.button svg {
+  fill: #00BCD4 !important;
+}
+
+.stroke.button.cyan {
+  color: #00BCD4 !important;
+  border-color: #00BCD4 !important;
+}
+
+.stroke.button.cyan svg {
+  fill: #00BCD4 !important;
+}
+
+.teal {
+  background: #009688 !important;
+  color: #fff !important;
+}
+
+.teal svg {
+  fill: #fff !important;
+}
+
+.text-teal {
+  color: #009688 !important;
+}
+
+.text-teal.button svg {
+  fill: #009688 !important;
+}
+
+.stroke.button.teal {
+  color: #009688 !important;
+  border-color: #009688 !important;
+}
+
+.stroke.button.teal svg {
+  fill: #009688 !important;
+}
+
+.green {
+  background: #4CAF50 !important;
+  color: #fff !important;
+}
+
+.green svg {
+  fill: #fff !important;
+}
+
+.text-green {
+  color: #4CAF50 !important;
+}
+
+.text-green.button svg {
+  fill: #4CAF50 !important;
+}
+
+.stroke.button.green {
+  color: #4CAF50 !important;
+  border-color: #4CAF50 !important;
+}
+
+.stroke.button.green svg {
+  fill: #4CAF50 !important;
+}
+
+.lightGreen {
+  background: #8BC34A !important;
+  color: #fff !important;
+}
+
+.lightGreen svg {
+  fill: #fff !important;
+}
+
+.text-lightGreen {
+  color: #8BC34A !important;
+}
+
+.text-lightGreen.button svg {
+  fill: #8BC34A !important;
+}
+
+.stroke.button.lightGreen {
+  color: #8BC34A !important;
+  border-color: #8BC34A !important;
+}
+
+.stroke.button.lightGreen svg {
+  fill: #8BC34A !important;
+}
+
+.lime {
+  background: #CDDC39 !important;
+  color: #fff !important;
+}
+
+.lime svg {
+  fill: #fff !important;
+}
+
+.text-lime {
+  color: #CDDC39 !important;
+}
+
+.text-lime.button svg {
+  fill: #CDDC39 !important;
+}
+
+.stroke.button.lime {
+  color: #CDDC39 !important;
+  border-color: #CDDC39 !important;
+}
+
+.stroke.button.lime svg {
+  fill: #CDDC39 !important;
+}
+
+.yellow {
+  background: #FFEB3B !important;
+  color: #202020 !important;
+}
+
+.yellow svg {
+  fill: #202020 !important;
+}
+
+.text-yellow {
+  color: #FFEB3B !important;
+}
+
+.text-yellow.button svg {
+  fill: #FFEB3B !important;
+}
+
+.stroke.button.yellow {
+  color: #FFEB3B !important;
+  border-color: #FFEB3B !important;
+}
+
+.stroke.button.yellow svg {
+  fill: #FFEB3B !important;
+}
+
+.amber {
+  background: #FFC107 !important;
+  color: #fff !important;
+}
+
+.amber svg {
+  fill: #fff !important;
+}
+
+.text-amber {
+  color: #FFC107 !important;
+}
+
+.text-amber.button svg {
+  fill: #FFC107 !important;
+}
+
+.stroke.button.amber {
+  color: #FFC107 !important;
+  border-color: #FFC107 !important;
+}
+
+.stroke.button.amber svg {
+  fill: #FFC107 !important;
+}
+
+.orange {
+  background: #FF9800 !important;
+  color: #fff !important;
+}
+
+.orange svg {
+  fill: #fff !important;
+}
+
+.text-orange {
+  color: #FF9800 !important;
+}
+
+.text-orange.button svg {
+  fill: #FF9800 !important;
+}
+
+.stroke.button.orange {
+  color: #FF9800 !important;
+  border-color: #FF9800 !important;
+}
+
+.stroke.button.orange svg {
+  fill: #FF9800 !important;
+}
+
+.deepOrange {
+  background: #FF5722 !important;
+  color: #fff !important;
+}
+
+.deepOrange svg {
+  fill: #fff !important;
+}
+
+.text-deepOrange {
+  color: #FF5722 !important;
+}
+
+.text-deepOrange.button svg {
+  fill: #FF5722 !important;
+}
+
+.stroke.button.deepOrange {
+  color: #FF5722 !important;
+  border-color: #FF5722 !important;
+}
+
+.stroke.button.deepOrange svg {
+  fill: #FF5722 !important;
+}
+
+.brown {
+  background: #795548 !important;
+  color: #fff !important;
+}
+
+.brown svg {
+  fill: #fff !important;
+}
+
+.text-brown {
+  color: #795548 !important;
+}
+
+.text-brown.button svg {
+  fill: #795548 !important;
+}
+
+.stroke.button.brown {
+  color: #795548 !important;
+  border-color: #795548 !important;
+}
+
+.stroke.button.brown svg {
+  fill: #795548 !important;
+}
+
+.gray {
+  background: #9D9D9D !important;
+  color: #fff !important;
+}
+
+.gray svg {
+  fill: #fff !important;
+}
+
+.text-gray {
+  color: #9D9D9D !important;
+}
+
+.text-gray.button svg {
+  fill: #9D9D9D !important;
+}
+
+.stroke.button.gray {
+  color: #9D9D9D !important;
+  border-color: #9D9D9D !important;
+}
+
+.stroke.button.gray svg {
+  fill: #9D9D9D !important;
+}
+
+.blueGray {
+  background: #607D8B !important;
+  color: #fff !important;
+}
+
+.blueGray svg {
+  fill: #fff !important;
+}
+
+.text-blueGray {
+  color: #607D8B !important;
+}
+
+.text-blueGray.button svg {
+  fill: #607D8B !important;
+}
+
+.stroke.button.blueGray {
+  color: #607D8B !important;
+  border-color: #607D8B !important;
+}
+
+.stroke.button.blueGray svg {
+  fill: #607D8B !important;
+}
+
+/* Social Colors */
+
+.social-facebook {
+  background: #3b5998 !important;
+  color: #fff !important;
+}
+
+.social-facebook svg {
+  fill: #fff !important;
+}
+
+.text-social-facebook {
+  color: #3b5998 !important;
+}
+
+.text-social-facebook.button svg {
+  fill: #3b5998 !important;
+}
+
+.stroke.button.social-facebook {
+  color: #3b5998 !important;
+  border-color: #3b5998 !important;
+}
+
+.stroke.button.social-facebook svg {
+  fill: #3b5998 !important;
+}
+
+.social-twitter {
+  background: #55acee !important;
+  color: #fff !important;
+}
+
+.social-twitter svg {
+  fill: #fff !important;
+}
+
+.text-social-twitter {
+  color: #55acee !important;
+}
+
+.text-social-twitter.button svg {
+  fill: #55acee !important;
+}
+
+.stroke.button.social-twitter {
+  color: #55acee !important;
+  border-color: #55acee !important;
+}
+
+.stroke.button.social-twitter svg {
+  fill: #55acee !important;
+}
+
+.social-googlePlus {
+  background: #DD4330 !important;
+  color: #fff !important;
+}
+
+.social-googlePlus svg {
+  fill: #fff !important;
+}
+
+.text-social-googlePlus {
+  color: #DD4330 !important;
+}
+
+.text-social-googlePlus.button svg {
+  fill: #DD4330 !important;
+}
+
+.stroke.button.social-googlePlus {
+  color: #DD4330 !important;
+  border-color: #DD4330 !important;
+}
+
+.stroke.button.social-googlePlus svg {
+  fill: #DD4330 !important;
+}
+
+.social-behance {
+  background: #105DFB !important;
+  color: #fff !important;
+}
+
+.social-behance svg {
+  fill: #fff !important;
+}
+
+.text-social-behance {
+  color: #105DFB !important;
+}
+
+.text-social-behance.button svg {
+  fill: #105DFB !important;
+}
+
+.stroke.button.social-behance {
+  color: #105DFB !important;
+  border-color: #105DFB !important;
+}
+
+.stroke.button.social-behance svg {
+  fill: #105DFB !important;
+}
+
+.social-medium {
+  background: #12100E !important;
+  color: #fff !important;
+}
+
+.social-medium svg {
+  fill: #fff !important;
+}
+
+.text-social-medium {
+  color: #12100E !important;
+}
+
+.text-social-medium.button svg {
+  fill: #12100E !important;
+}
+
+.stroke.button.social-medium {
+  color: #12100E !important;
+  border-color: #12100E !important;
+}
+
+.stroke.button.social-medium svg {
+  fill: #12100E !important;
+}
+
+.social-stumbleupon {
+  background: #eb4924 !important;
+  color: #fff !important;
+}
+
+.social-stumbleupon svg {
+  fill: #fff !important;
+}
+
+.text-social-stumbleupon {
+  color: #eb4924 !important;
+}
+
+.text-social-stumbleupon.button svg {
+  fill: #eb4924 !important;
+}
+
+.stroke.button.social-stumbleupon {
+  color: #eb4924 !important;
+  border-color: #eb4924 !important;
+}
+
+.stroke.button.social-stumbleupon svg {
+  fill: #eb4924 !important;
+}
+
+.social-linkedin {
+  background: #0077b5 !important;
+  color: #fff !important;
+}
+
+.social-linkedin svg {
+  fill: #fff !important;
+}
+
+.text-social-linkedin {
+  color: #0077b5 !important;
+}
+
+.text-social-linkedin.button svg {
+  fill: #0077b5 !important;
+}
+
+.stroke.button.social-linkedin {
+  color: #0077b5 !important;
+  border-color: #0077b5 !important;
+}
+
+.stroke.button.social-linkedin svg {
+  fill: #0077b5 !important;
+}
+
+.social-pinterest {
+  background: #cc2127 !important;
+  color: #fff !important;
+}
+
+.social-pinterest svg {
+  fill: #fff !important;
+}
+
+.text-social-pinterest {
+  color: #cc2127 !important;
+}
+
+.text-social-pinterest.button svg {
+  fill: #cc2127 !important;
+}
+
+.stroke.button.social-pinterest {
+  color: #cc2127 !important;
+  border-color: #cc2127 !important;
+}
+
+.stroke.button.social-pinterest svg {
+  fill: #cc2127 !important;
+}
+
+.social-instagram {
+  background: #e4405f !important;
+  color: #fff !important;
+}
+
+.social-instagram svg {
+  fill: #fff !important;
+}
+
+.text-social-instagram {
+  color: #e4405f !important;
+}
+
+.text-social-instagram.button svg {
+  fill: #e4405f !important;
+}
+
+.stroke.button.social-instagram {
+  color: #e4405f !important;
+  border-color: #e4405f !important;
+}
+
+.stroke.button.social-instagram svg {
+  fill: #e4405f !important;
+}
+
+.social-tumblr {
+  background: #34455D !important;
+  color: #fff !important;
+}
+
+.social-tumblr svg {
+  fill: #fff !important;
+}
+
+.text-social-tumblr {
+  color: #34455D !important;
+}
+
+.text-social-tumblr.button svg {
+  fill: #34455D !important;
+}
+
+.stroke.button.social-tumblr {
+  color: #34455D !important;
+  border-color: #34455D !important;
+}
+
+.stroke.button.social-tumblr svg {
+  fill: #34455D !important;
+}
+
+.social-dribbble {
+  background: #ea4c89 !important;
+  color: #fff !important;
+}
+
+.social-dribbble svg {
+  fill: #fff !important;
+}
+
+.text-social-dribbble {
+  color: #ea4c89 !important;
+}
+
+.text-social-dribbble.button svg {
+  fill: #ea4c89 !important;
+}
+
+.stroke.button.social-dribbble {
+  color: #ea4c89 !important;
+  border-color: #ea4c89 !important;
+}
+
+.stroke.button.social-dribbble svg {
+  fill: #ea4c89 !important;
+}
+
+.social-youtube {
+  background: #cd201f !important;
+  color: #fff !important;
+}
+
+.social-youtube svg {
+  fill: #fff !important;
+}
+
+.text-social-youtube {
+  color: #cd201f !important;
+}
+
+.text-social-youtube.button svg {
+  fill: #cd201f !important;
+}
+
+.stroke.button.social-youtube {
+  color: #cd201f !important;
+  border-color: #cd201f !important;
+}
+
+.stroke.button.social-youtube svg {
+  fill: #cd201f !important;
+}
+
+.social-delicious {
+  background: #3399ff !important;
+  color: #fff !important;
+}
+
+.social-delicious svg {
+  fill: #fff !important;
+}
+
+.text-social-delicious {
+  color: #3399ff !important;
+}
+
+.text-social-delicious.button svg {
+  fill: #3399ff !important;
+}
+
+.stroke.button.social-delicious {
+  color: #3399ff !important;
+  border-color: #3399ff !important;
+}
+
+.stroke.button.social-delicious svg {
+  fill: #3399ff !important;
+}
+
+.social-digg {
+  background: #000000 !important;
+  color: #fff !important;
+}
+
+.social-digg svg {
+  fill: #fff !important;
+}
+
+.text-social-digg {
+  color: #000000 !important;
+}
+
+.text-social-digg.button svg {
+  fill: #000000 !important;
+}
+
+.stroke.button.social-digg {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.stroke.button.social-digg svg {
+  fill: #000000 !important;
+}
+
+.social-vimeo {
+  background: #fff !important;
+  color: #1ab7ea !important;
+}
+
+.social-vimeo svg {
+  fill: #1ab7ea !important;
+}
+
+.text-social-vimeo {
+  color: #fff !important;
+}
+
+.text-social-vimeo.button svg {
+  fill: #fff !important;
+}
+
+.stroke.button.social-vimeo {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.stroke.button.social-vimeo svg {
+  fill: #fff !important;
+}
+
+.social-whatsapp {
+  background: #25D366 !important;
+  color: #fff !important;
+}
+
+.social-whatsapp svg {
+  fill: #fff !important;
+}
+
+.text-social-whatsapp {
+  color: #25D366 !important;
+}
+
+.text-social-whatsapp.button svg {
+  fill: #25D366 !important;
+}
+
+.stroke.button.social-whatsapp {
+  color: #25D366 !important;
+  border-color: #25D366 !important;
+}
+
+.stroke.button.social-whatsapp svg {
+  fill: #25D366 !important;
+}
+
+.social-xing {
+  background: #026466 !important;
+  color: #fff !important;
+}
+
+.social-xing svg {
+  fill: #fff !important;
+}
+
+.text-social-xing {
+  color: #026466 !important;
+}
+
+.text-social-xing.button svg {
+  fill: #026466 !important;
+}
+
+.stroke.button.social-xing {
+  color: #026466 !important;
+  border-color: #026466 !important;
+}
+
+.stroke.button.social-xing svg {
+  fill: #026466 !important;
+}
+
+.social-youtube {
+  background: #FC0D1C !important;
+  color: #fff !important;
+}
+
+.social-youtube svg {
+  fill: #fff !important;
+}
+
+.text-social-youtube {
+  color: #FC0D1C !important;
+}
+
+.text-social-youtube.button svg {
+  fill: #FC0D1C !important;
+}
+
+.stroke.button.social-youtube {
+  color: #FC0D1C !important;
+  border-color: #FC0D1C !important;
+}
+
+.stroke.button.social-youtube svg {
+  fill: #FC0D1C !important;
+}
