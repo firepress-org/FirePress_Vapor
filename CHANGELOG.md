@@ -4,7 +4,11 @@ FirePress Public Roadmap:
 https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 
-## 1.6.4 template — — — — — — — — — —
+## 1.6.5 — — — — — — — — — —
+
+- e302c8e1 update license
+
+## 1.6.4 — — — — — — — — — —
 
 - 8395b429 Major readme update
 - 06daa0c7 add original README
