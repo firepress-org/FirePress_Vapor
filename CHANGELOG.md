@@ -4,26 +4,21 @@ FirePress Public Roadmap:
 https://trello.com/b/0fCwwzqc/firepress-public-roadmap
 
 
-## 0.00 template — — — — — — — — — —
+## 1.6.4 template — — — — — — — — — —
 
-**🎨 User Story**
-- As an OpsHero, I want to 0o0o
-
-**🚀 Major feature**
-
-**item** — blabla
-
-**⚡️ Minor Feature**
-
-**item** — blabla
-
-**🐛 Bugs**
-
-**item** — blabla
-
-**⚠️ Warning**
-
-**item** — blabla
+- 8395b429 Major readme update
+- 06daa0c7 add original README
+- 7b609cbc add checklist
+- 8f72d11b added {{reading_time}} for estimated reading time
+- 5d9c2d2f Adding FirePress customisations
+- 4ac3069d metadata updates /minor
+- 685df71e licence section / minor update
+- a9a815d9 minor license syntax
+- b9eb9909 clenaing comments syntax
+- 490aafd7 convert tab to space
+- dbbef2a0 fix section / Contributing
+- eb973d90 update to font awesome 5.3.1
+- 250938d6 Major README update
 
 ---
 
