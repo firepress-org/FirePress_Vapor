@@ -1,16 +1,20 @@
 /*  entry
     is the entrypoint from default.hbs
 
-    btn_a, btn_b, btn_c are button styles
-    We do this is order to avoid CSS conflict (which happens all the time with the 'button' style)
+    Button styles
+    We do this is order to avoid CSS conflict. It happens all the time with the 'button' style)
 /* ---------------------------------------------------------- */
+
+@import "simplegrid.min.css";
+
+@import "btn_c.min.css";
 
 @import "btn_a_var.css";
 @import "btn_a.min.css";
-@import "btn_b.min.css";
-@import "btn_c.min.css";
-@import "simplegrid.min.css";
 
 /*  ==========================================================================
-    btnfire.css / reserved for stuff in dev
+bypassed
+
+@import "btn_b.min.css";
+
 */
