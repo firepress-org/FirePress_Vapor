@@ -47,13 +47,13 @@ In short, you can try Ghost on the spot without having to sign-up!
 
 ## Why fork this Ghost Theme?
 
-- **Drop-in replacement** — No special tweaks to do. It will work out of the box.
 - **Enhancements** — This theme has been enhanced to feature some elements that are not present in the original theme. IMHO, these elements are hard to live without.
-    - Buttons
-    - Icons (Font Awesome)
-    - Code Syntax (highlight.js)
-    - Tables (Grid) (great to make pricing table)
-- **Code Injection** — We share snippets that improve the look of this theme via this [Git repo](https://github.com/firepress-org/Code-Injection-Ghost). It’s an easy way to customize this theme. This allows you to override pretty much any styles you want to change.
+    1) Buttons
+    2) Icons (Font Awesome)
+    3) Code Syntax (highlight.js)
+    4) Grid table (great to make pricing table)
+- **Drop-in replacement** — No special tweaks to do. It will work out of the box. Ensure to use the appropriate [Code Injection](https://firepress.org/en/what-is-code-injection-in-ghost/) snippet.
+- **Code Injection** — We share snippets that customize the look of this theme. See [git repo](https://github.com/firepress-org/Code-Injection-for-Ghost-themes). It’s an easy way to customize this theme. This allows you to override pretty much any styles you want to change.
 - **Curated** — This theme was carefully selected out of hundreds of Ghost themes. See more of them in our [Ghost-Theme-Curated-Collection ](https://github.com/firepress-org/Ghost-Theme-Curated-Collection/tree/master/01_go) repo, or [by tags on Github](https://github.com/topics/firepress-ghost-theme).
 
 <br>
