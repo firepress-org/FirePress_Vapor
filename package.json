@@ -2,7 +2,7 @@
     "name": "FirePress_Vapor",
     "description": "This Ghost theme is supported by FirePress. Find more free themes at https://github.com/topics/firepress-ghost-theme",
     "demo": "https://play-with-ghost.com/ghost-themes/firepress-vapor-for-barbershops/",
-    "version": "1.6.5",
+    "version": "1.6.6",
     "engines": {
         "ghost": ">=2.0.0"
     },
